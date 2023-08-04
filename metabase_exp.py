@@ -25,7 +25,7 @@ parser.add_argument("-p","--port",help="反弹服务器端口")
 parser.add_argument("-t","--token",help="与目标对应token")
 parser.add_argument("mode",help="[poc][exp][backdoor]",type=str)
 parser.add_argument("-o","--output",help="poc输出文件名")
-parser.add_argument("-p","--payload",help="执行payload代码")
+parser.add_argument("-payload","--payload",help="执行payload代码")
 
 
 args= parser.parse_args()

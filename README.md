@@ -31,7 +31,7 @@ python3 metabase_exp.py backdoor  -f/-u -t  json文件/ip token -p 你的payload
 
 
 
-我遇到的问题：waf，不出网，无法后利用
+
 太菜了写的不是很好啊哈哈
 
 

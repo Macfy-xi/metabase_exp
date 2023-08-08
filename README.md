@@ -37,11 +37,18 @@ python3 metabase_exp.py backdoor  -f/-u -t  json文件/ip token -payload 你的p
 
 我的库版本
 certifi            2023.5.7
+
 charset-normalizer 3.2.0
+
 pip                23.2.1
+
 pycryptodomex      3.14.0
+
 requests           2.31.0
+
 setuptools         67.6.1
+
 urllib3            2.0.3
+
 wheel              0.40.0
 版本问题没试过

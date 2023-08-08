@@ -1,6 +1,6 @@
 # metabase_exp
 metabase rce
-# 仅供学习使用
+## 仅供学习使用
 漏洞利用过程为：获取token->测试token是否可用->尝试nc反弹->尝试自定义命令留后门
 
 
